@@ -1,0 +1,131 @@
+{
+  "name": "Wydra's settings mod",
+  "author": "MrWydra",
+  "description": "A custom settings mod.",
+  "version": "2.1.1",
+  "license": "GNU AGPLv3",
+  "icon": "icon.png",
+  "banner": "https://cdn.discordapp.com/attachments/989265536028381244/996881589768302712/raftbannersettings.png",
+  "gameVersion": "1.0",
+  "requiredByAllPlayers": true,
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/mrwydra-settings/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "checkbox",
+      "name": "infiniteBaits",
+      "text": "Infinite baits",
+      "access": "World",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "name": "unbreakableRod",
+      "text": "Unbreakable rod",
+      "access": "World",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "name": "safeRaft",
+      "text": "Safe Raft",
+      "access": "World",
+      "default": false
+    },
+    {
+      "type": "input",
+      "name": "lootMultiplier",
+      "text": "Fishing Loot Multiplayer",
+      "default": 1,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "input",
+      "name": "sprintSpeed",
+      "text": "Sprint Speed",
+      "default": 5,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "input",
+      "name": "swimSpeed",
+      "text": "Swim Speed",
+      "default": 3,
+      "access": "World",
+      "mode": "IntegerNumberr"
+    },
+    {
+      "type": "input",
+      "name": "normalSpeed",
+      "text": "Normal Speed",
+      "default": 1,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "input",
+      "name": "jumpSpeed",
+      "text": "Jump Speed",
+      "default": 1,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "input",
+      "name": "gravity",
+      "text": "Gravity",
+      "default": 20,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "checkbox",
+      "name": "disableHunger",
+      "text": "Disable Hunger",
+      "access": "World",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "name": "disableThirst",
+      "text": "Disable Thirst",
+      "access": "World",
+      "default": false
+    },
+    {
+      "type": "combobox",
+      "name": "infiniteOxygen",
+      "text": "Infinite Oxygen",
+      "access": "World",
+      "default": 0,
+      "values": [ "Finite Oxygen", "Infinite Oxygen", "Infinite, Remove Oxygen Bar" ]
+    },
+    {
+      "type": "combobox",
+      "name": "sprinklerCheat",
+      "text": "Sprinkler Cheat",
+      "access": "World",
+      "default": 0,
+      "values": [ "Requires Water and Electricty", "Requires Nothing", "Requires Water", "Requires Electricity" ]
+    },
+    {
+      "type": "input",
+      "name": "pullSpeed",
+      "text": "Custom Pull Speed",
+      "default": 3,
+      "access": "World",
+      "mode": "IntegerNumber"
+    },
+    {
+      "type": "combobox",
+      "name": "weakShark",
+      "text": "Weak Shark",
+      "access": "World",
+      "default": 1,
+      "values": [ "No Damage", "Deals Damage" ]
+    }
+  ]
+}
